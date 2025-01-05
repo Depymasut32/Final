@@ -1,0 +1,131 @@
+header{
+    background-color: gray;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+}
+.nav-link{
+    color: white;
+    font-size: 25pt;
+}
+nav{
+    background-color: gray;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1E152A;
+    color: #F8333C;
+}
+
+main{
+    width: 80%;
+}
+
+.adatlap-sec{
+    width: 100%;
+    background-color: #0D0C1D;
+    padding: 10px;
+}
+
+.album{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #282828;
+    width: 100%;
+    border-radius: 15px;
+    margin: 15px 0px 0px 0px;
+}
+
+.album:hover .album-dropdown{
+    max-height: 500px;             
+    opacity: 1;
+    
+}
+
+.album-dropdown{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    background-color: #515151;
+    padding: 10px;
+    border-radius: 0px 0px 25px 25px;
+    max-height: 0;                 
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.zeneszam{
+    width: 100%;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.tablazat{
+    width: 100%;
+    background-color: #282828;
+}
+
+.tablazat td{
+    border: 2px solid #0D0C1D;
+    text-align: center;
+}
+
+.tablazat th{
+    text-align: center;
+}
+
+.nagy-cella{
+    width: 60%;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        background-color: gray;
+        height: 300px;
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-left: 15px;
+    }
+    .dropdown{
+        display: block;
+    }
+
+    .zeneszam-cover{
+        margin: 2px;
+        border-radius: 12px;
+    }
+
+}

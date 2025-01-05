@@ -1,0 +1,58 @@
+nav{
+    background-color: gray;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+    margin-left: 15px;
+} 
+.nav-link{
+    color: white;
+    font-size: 25pt;
+}
+
+body{
+    background-color: #1E152A;
+    
+}
+.card{
+    background-color: #0D0C1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 50px;
+    height: 500px;
+    color: #F8333C;
+}
+
+.card img{
+    margin-bottom: 50px;
+    border-radius: 70px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        background-color: gray;
+        height: 300px;
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-left: 15px;
+    }
+    .dropdown{
+        display: block;
+    }
+
+}
+
