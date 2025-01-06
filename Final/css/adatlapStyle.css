@@ -99,12 +99,28 @@ main{
 }
 
 .nagy-cella{
-    width: 60%;
+    width: 45%;
 }
 
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: white;
+}
+
+.album-data{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.album-cover-con{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -118,9 +134,6 @@ a, a:hover, a:focus, a:active {
         width: 100px;
         height: 100px;
         margin-left: 15px;
-    }
-    .dropdown{
-        display: block;
     }
 
     .zeneszam-cover{
